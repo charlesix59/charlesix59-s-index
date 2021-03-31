@@ -1,0 +1,93 @@
+main{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: white;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0px;
+}
+img.headpic{
+    object-fit:contain;
+}
+div.totop{
+    width: 5%;
+    height: 5%;
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    background-image: url("upto.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer{
+    background-image: linear-gradient(blue,#66ccff);
+    color: whitesmoke;
+}
+.bili{
+    border: pink 3px solid;
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.ncloud{
+    border: red 3px groove;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.steam{
+    background-image: url("bg_body.png");
+    background-size: cover;
+    color: snow;
+    width: 100%;
+    position: relative;
+    padding: 0.3em;
+}
+.brief{
+    text-align: center;
+}
+.rightobj{
+    position: absolute;
+    left: 75%;
+    display:inline;
+}
+a.a1:link{
+    color: white;
+}
+a.a1:visited{
+    color: white;
+}
+a.a2:link{
+    color: black;
+}
+a.a2:visited{
+    color: black;
+}
+.text{
+    padding: 8px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0.3em;
+}
+li{
+    padding: 0.5em;
+    display: inline;
+    font-size: 0.8em;
+}
+li:hover{
+    border-bottom: deepskyblue 5px solid;
+}
+img.pin{
+    height: 260px;
+    width: 180px;
+    padding-right: 5px;
+}
+img.pin:hover{
+    transform: rotateY(15deg);
+}
