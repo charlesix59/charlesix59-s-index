@@ -91,3 +91,36 @@ img.pin{
 img.pin:hover{
     transform: rotateY(15deg);
 }
+button.to1{
+    width:1.5em;
+    height:1.8em;
+    background-image: url("next.png");
+    background-size: cover;
+    position:relative;
+    top:-8em;
+    float: right;
+    background-color: #ffffff;
+    border: none;
+}
+button.to2{
+    width:1.5em;
+    height:1.8em;
+    background-image: url("before.png");
+    background-size: cover;
+    position: relative;
+    top:6.5em;
+    z-index: 2;
+    float: left;
+    background-color: #ffffff;
+    border: none;
+}
+button.normal{
+    width: 20px;
+    height: 10px;
+    background-color: white;
+}
+button.choosen{
+    width: 20px;
+    height: 10px;
+    background-color: aqua;
+}
